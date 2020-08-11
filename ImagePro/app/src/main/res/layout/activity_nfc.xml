@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<!--    <include-->
+<!--        layout="@layout/button">-->
+<!--    </include>-->
+
+    <Button
+        android:id="@+id/pbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:onClick="pbtnc"
+        />
+
+
+    <Button
+        android:id="@+id/read_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbtn"
+        android:onClick="pbtnc2"
+        android:text="读卡" />
+
+    <Button
+        android:id="@+id/write_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/read_btn"
+        android:onClick="pbtnc3"
+        android:text="写卡" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/write_btn"
+        android:onClick="pbtnc4"
+        android:text="删除" />
+
+
+    <TextView
+        android:id="@+id/promt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Hello world!!"
+        android:textColor="#FF79BC"
+        />
+
+</RelativeLayout>
